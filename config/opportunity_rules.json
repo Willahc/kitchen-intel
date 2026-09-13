@@ -1,0 +1,39 @@
+{
+  "rules_version": "0.1.1",
+  "categories": {
+    "COZINHA": ["cozinha industrial", "cozinha institucional", "cozinha profissional", "cozinha escolar", "cozinha hospitalar", "cozinha"],
+    "REFEITORIO": ["refeitório", "restaurante universitário", "restaurante institucional", "praça de alimentação institucional"],
+    "INOX": ["mesa inox", "bancada inox", "pia inox", "estante inox", "prateleira inox", "carro inox", "aço inox", "mesa em aço inox"],
+    "COCCAO": ["forno combinado", "forno industrial", "fogão industrial", "fritadeira industrial", "chapa", "caldeirão"],
+    "REFRIGERACAO": ["freezer industrial", "refrigerador industrial", "câmara fria", "balcão refrigerado"],
+    "EXAUSTAO": ["coifa", "exaustor", "sistema de exaustão", "ventilação de cozinha", "dutos"],
+    "LAVAGEM": ["lava-louças industrial", "máquina de lavar louça", "área de lavagem"],
+    "INFRAESTRUTURA": ["reforma de cozinha", "construção de cozinha", "adequação de cozinha", "reforma de refeitório", "instalação de cozinha", "manutenção de cozinha"],
+    "ALIMENTACAO_COLETIVA": ["merenda escolar", "alimentação hospitalar", "alimentação coletiva", "UAN", "unidade de alimentação e nutrição"]
+  },
+  "infrastructure_action_terms": ["reforma", "construção", "adequação", "instalação", "manutenção"],
+  "negative_terms": [
+    {"term": "cozinha residencial", "reason_code": "NEGATIVE_CONTEXT"},
+    {"term": "inox odontológico", "reason_code": "NEGATIVE_CONTEXT"},
+    {"term": "consultório odontológico", "reason_code": "NEGATIVE_CONTEXT"},
+    {"term": "exaustor automotivo", "reason_code": "NEGATIVE_CONTEXT"}
+  ],
+  "strong_direct_terms": ["cozinha industrial", "cozinha institucional", "cozinha profissional", "cozinha escolar", "cozinha hospitalar"],
+  "score_weights": {
+    "fit_product": {"ALTA": 35, "MEDIA": 22, "BAIXA": 8, "IRRELEVANTE": 0},
+    "purchase_signal": 25,
+    "recency_bands_days": [[7, 15], [30, 10], [90, 5]],
+    "ticket_bands": [[500000, 15], [100000, 10], [25000, 5], [0, 2]]
+  },
+  "confidence": {
+    "base": 20,
+    "direct_strong_match": 40,
+    "multiple_categories": 25,
+    "single_strong_category": 20,
+    "required_identity_and_object": 10,
+    "value_present": 5,
+    "dates_present": 5,
+    "negative_context": 30,
+    "positive_negative_conflict_penalty": 20
+  }
+}

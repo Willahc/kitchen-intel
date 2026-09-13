@@ -1,0 +1,106 @@
+{
+  "gate": "GATE 5",
+  "updated_at": "2026-09-13T13:12:00Z",
+  "corpus_version": "0.1.0",
+  "corpus_total": 76,
+  "providers": {
+    "baseline": {
+      "status": "COMPLETED",
+      "model": "rules_v0.1.1",
+      "valid": 76,
+      "total": 76,
+      "metrics": {
+        "true_positive": 9,
+        "false_positive": 15,
+        "true_negative": 50,
+        "false_negative": 2,
+        "accuracy": 0.7763,
+        "precision": 0.3750,
+        "recall": 0.8182,
+        "f1_score": 0.5143,
+        "relevance_accuracy": 0.7368,
+        "category_micro_precision": 0.8889,
+        "category_micro_recall": 0.6667,
+        "category_micro_f1": 0.7619,
+        "category_exact_match": 0.7273
+      }
+    },
+    "nvidia": {
+      "status": "COMPLETED",
+      "provider": "nvidia",
+      "model": "openai/gpt-oss-20b",
+      "prompt_version": "0.1.0",
+      "temperature": 0.0,
+      "valid": 76,
+      "total": 76,
+      "metrics": {
+        "true_positive": 11,
+        "false_positive": 12,
+        "true_negative": 53,
+        "false_negative": 0,
+        "accuracy": 0.8421,
+        "precision": 0.4783,
+        "recall": 1.0000,
+        "f1_score": 0.6471,
+        "relevance_accuracy": 0.7105,
+        "category_micro_precision": 0.9167,
+        "category_micro_recall": 0.9167,
+        "category_micro_f1": 0.9167,
+        "category_exact_match": 0.8182
+      },
+      "delta_vs_baseline": {
+        "accuracy_delta": 0.0658,
+        "precision_delta": 0.1033,
+        "recall_delta": 0.1818,
+        "f1_score_delta": 0.1328
+      }
+    },
+    "openrouter": {
+      "status": "INCOMPLETE — 51/76",
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "prompt_version": "0.1.0",
+      "temperature": 0.0,
+      "valid": 51,
+      "total": 76,
+      "metrics": null
+    },
+    "gemini": {
+      "status": "INCOMPLETE — 26/76",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "prompt_version": "0.1.0",
+      "temperature": 0.0,
+      "valid": 26,
+      "total": 76,
+      "metrics": null
+    },
+    "groq": {
+      "status": "BLOCKED",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "valid": 0,
+      "total": 76,
+      "reason": "HTTP 401 — Invalid API Key",
+      "metrics": null
+    },
+    "openai": {
+      "status": "BLOCKED",
+      "provider": "openai",
+      "model": "gpt-5.6-luna",
+      "valid": 0,
+      "total": 76,
+      "reason": "HTTP 400 — credit_balance_exhausted",
+      "metrics": null
+    },
+    "cerebras": {
+      "status": "BLOCKED",
+      "provider": "cerebras",
+      "model": "qwen-3.8-27b",
+      "valid": 0,
+      "total": 76,
+      "reason": "HTTP 402 — payment_required",
+      "metrics": null
+    }
+  }
+}

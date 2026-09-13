@@ -1,0 +1,26 @@
+{
+  "rules_version": "0.1.1",
+  "generated_at": "2026-09-12T14:05:51.844836+00:00",
+  "source_silver_files": [
+    "data/silver/pncp/pncp_silver_20260912T122355376645Z_cbd432aff5fa.jsonl",
+    "data/silver/pncp/pncp_silver_20260912T133412022445Z_82410323f552.jsonl",
+    "data/silver/pncp/pncp_silver_20260912T140546644767Z_54d144356899.jsonl"
+  ],
+  "input_record_count": 290,
+  "relevant_count": 4,
+  "irrelevant_count": 256,
+  "active_count": 207,
+  "future_count": 35,
+  "closed_count": 8,
+  "indeterminate_count": 10,
+  "high_relevance_count": 1,
+  "medium_relevance_count": 2,
+  "low_relevance_count": 1,
+  "average_opportunity_score": 1.18,
+  "average_confidence_score": 40.19,
+  "category_counts": {
+    "COZINHA": 3,
+    "INFRAESTRUTURA": 1,
+    "ALIMENTACAO_COLETIVA": 1
+  }
+}

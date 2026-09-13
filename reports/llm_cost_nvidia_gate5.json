@@ -1,0 +1,20 @@
+{
+  "calls": 76,
+  "cached_calls": 10,
+  "live_calls": 66,
+  "tokens": {
+    "input_tokens": 96689,
+    "output_tokens": 24820,
+    "total_tokens": 121509
+  },
+  "cost": {
+    "total_cost_usd": 0.0,
+    "currency": "USD",
+    "average_cost_per_record_usd": 0.0
+  },
+  "latency_ms": {
+    "average_latency": 5762.89,
+    "p50_latency": 4269.85,
+    "p95_latency": 15035.87
+  }
+}

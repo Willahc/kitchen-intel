@@ -1,0 +1,29 @@
+{
+  "rules_version": "0.1.1",
+  "generated_at": "2026-09-12T14:06:52.859917+00:00",
+  "source_silver_files": [
+    "data/silver/pncp/pncp_silver_20260912T122355376645Z_cbd432aff5fa.jsonl",
+    "data/silver/pncp/pncp_silver_20260912T133412022445Z_82410323f552.jsonl",
+    "data/silver/pncp/pncp_silver_20260912T140546644767Z_54d144356899.jsonl",
+    "data/silver/pncp/pncp_silver_20260912T140648127076Z_3c8c77c1b253.jsonl"
+  ],
+  "input_record_count": 950,
+  "relevant_count": 10,
+  "irrelevant_count": 650,
+  "active_count": 561,
+  "future_count": 65,
+  "closed_count": 24,
+  "indeterminate_count": 10,
+  "high_relevance_count": 3,
+  "medium_relevance_count": 5,
+  "low_relevance_count": 2,
+  "average_opportunity_score": 1.16,
+  "average_confidence_score": 40.27,
+  "category_counts": {
+    "COZINHA": 5,
+    "INFRAESTRUTURA": 3,
+    "ALIMENTACAO_COLETIVA": 2,
+    "COCCAO": 1,
+    "REFEITORIO": 2
+  }
+}

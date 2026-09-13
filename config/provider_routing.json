@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "default_mode": "benchmark",
+  "benchmark": {
+    "allow_fallback": false,
+    "provider": "openrouter",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free"
+  },
+  "production": {
+    "allow_fallback": true,
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-super-120b-a12b:free"
+      },
+      {
+        "provider": "gemini",
+        "model": "gemini-2.5-flash"
+      },
+      {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b"
+      },
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-luna"
+      },
+      {
+        "provider": "deterministic",
+        "model": "rules_v0.1.1"
+      }
+    ],
+    "circuit_breaker": {
+      "failure_threshold": 3,
+      "cooldown_seconds": 60.0
+    }
+  }
+}

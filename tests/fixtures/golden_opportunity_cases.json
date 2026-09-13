@@ -1,0 +1,12 @@
+[
+  {"name":"construcao_cozinha_refeitorio","text":"Construção de cozinha e refeitório","expected_relevance":"ALTA","expected_categories":["COZINHA","INFRAESTRUTURA","REFEITORIO"]},
+  {"name":"manutencao_coifa","text":"Manutenção preventiva de coifa e exaustor de cozinha industrial","expected_relevance":"ALTA","expected_categories":["COZINHA","EXAUSTAO","INFRAESTRUTURA"]},
+  {"name":"mesa_aco_inox","text":"Aquisição de mesa em aço inox para cozinha","expected_relevance":"MEDIA","expected_categories":["COZINHA","INOX"]},
+  {"name":"freezer_industrial","text":"Aquisição de freezer industrial","expected_relevance":"MEDIA","expected_categories":["REFRIGERACAO"]},
+  {"name":"computadores","text":"Compra de computadores","expected_relevance":"IRRELEVANTE","expected_categories":[]},
+  {"name":"exaustor_automotivo","text":"Aquisição de exaustor automotivo","expected_relevance":"IRRELEVANTE","expected_categories":[]},
+  {"name":"inox_odontologico","text":"Mobiliário em aço inox para consultório odontológico","expected_relevance":"IRRELEVANTE","expected_categories":[]},
+  {"name":"reforma_refeitorio","text":"Reforma de refeitório escolar","expected_relevance":"ALTA","expected_categories":["INFRAESTRUTURA","REFEITORIO"]},
+  {"name":"lava_loucas","text":"Lava-louças industrial","expected_relevance":"MEDIA","expected_categories":["LAVAGEM"]},
+  {"name":"merenda_escolar","text":"Merenda escolar","expected_relevance":"BAIXA","expected_categories":["ALIMENTACAO_COLETIVA"]}
+]

@@ -1,0 +1,1 @@
+"""Modelos canônicos de dados."""

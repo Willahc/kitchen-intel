@@ -1,0 +1,28 @@
+{
+  "gate": "GATE 5",
+  "status": "IN_PROGRESS_INCREMENTAL",
+  "updated_at": "2026-09-13T10:44:08.780076+00:00",
+  "provider": "gemini",
+  "model": "gemini-2.5-flash",
+  "prompt_version": "0.1.0",
+  "temperature": 0.0,
+  "corpus_version": "0.1.0",
+  "total": 76,
+  "valid": 26,
+  "pending": 50,
+  "errors": 0,
+  "cache_hits": 25,
+  "new_calls": 1,
+  "rate_limit_status": "RATE_LIMIT_DAILY_REACHED",
+  "safety_and_governance": {
+    "zero_data_leakage": true,
+    "no_ground_truth_leakage": true,
+    "single_model_integrity_enforced": true,
+    "evaluation_against_ground_truth_blocked_until_76": true
+  },
+  "artifacts": {
+    "predictions_jsonl": "reports/llm_predictions_v0.1.0.jsonl",
+    "cache_json": "data/cache/llm_cache_v0.1.0.json",
+    "cost_report_json": "reports/llm_cost_gate5.json"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "rules_version": "0.1.1",
+  "case_count": 10,
+  "accuracy_relevance": 1.0,
+  "precision_relevant": 1.0,
+  "recall_relevant": 1.0,
+  "category_exact_accuracy": 1.0,
+  "confusion": {
+    "true_positive": 7,
+    "false_positive": 0,
+    "false_negative": 0
+  },
+  "cases": [
+    {
+      "name": "construcao_cozinha_refeitorio",
+      "expected_relevance": "ALTA",
+      "predicted_relevance": "ALTA",
+      "expected_categories": [
+        "COZINHA",
+        "INFRAESTRUTURA",
+        "REFEITORIO"
+      ],
+      "predicted_categories": [
+        "COZINHA",
+        "INFRAESTRUTURA",
+        "REFEITORIO"
+      ],
+      "temporal_status": "ATIVA",
+      "opportunity_score": 77,
+      "confidence_score": 65
+    },
+    {
+      "name": "manutencao_coifa",
+      "expected_relevance": "ALTA",
+      "predicted_relevance": "ALTA",
+      "expected_categories": [
+        "COZINHA",
+        "EXAUSTAO",
+        "INFRAESTRUTURA"
+      ],
+      "predicted_categories": [
+        "COZINHA",
+        "EXAUSTAO",
+        "INFRAESTRUTURA"
+      ],
+      "temporal_status": "ATIVA",
+      "opportunity_score": 77,
+      "confidence_score": 80
+    },
+    {
+      "name": "mesa_aco_inox",
+      "expected_relevance": "MEDIA",
+      "predicted_relevance": "MEDIA",
+      "expected_categories": [
+        "COZINHA",
+        "INOX"
+      ],
+      "predicted_categories": [
+        "COZINHA",
+        "INOX"
+      ],
+      "temporal_status": "ATIVA",
+      "opportunity_score": 64,
+      "confidence_score": 65
+    },
+    {
+      "name": "freezer_industrial",
+      "expected_relevance": "MEDIA",
+      "predicted_relevance": "MEDIA",
+      "expected_categories": [
+        "REFRIGERACAO"
+      ],
+      "predicted_categories": [
+        "REFRIGERACAO"
+      ],
+      "temporal_status": "ATIVA",
+      "opportunity_score": 64,
+      "confidence_score": 60
+    },
+    {
+      "name": "computadores",
+      "expected_relevance": "IRRELEVANTE",
+      "predicted_relevance": "IRRELEVANTE",
+      "expected_categories": [],
+      "predicted_categories": [],
+      "temporal_status": "ATIVA",
+      "opportunity_score": 0,
+      "confidence_score": 40
+    },
+    {
+      "name": "exaustor_automotivo",
+      "expected_relevance": "IRRELEVANTE",
+      "predicted_relevance": "IRRELEVANTE",
+      "expected_categories": [],
+      "predicted_categories": [],
+      "temporal_status": "ATIVA",
+      "opportunity_score": 0,
+      "confidence_score": 50
+    },
+    {
+      "name": "inox_odontologico",
+      "expected_relevance": "IRRELEVANTE",
+      "predicted_relevance": "IRRELEVANTE",
+      "expected_categories": [],
+      "predicted_categories": [],
+      "temporal_status": "ATIVA",
+      "opportunity_score": 0,
+      "confidence_score": 50
+    },
+    {
+      "name": "reforma_refeitorio",
+      "expected_relevance": "ALTA",
+      "predicted_relevance": "ALTA",
+      "expected_categories": [
+        "INFRAESTRUTURA",
+        "REFEITORIO"
+      ],
+      "predicted_categories": [
+        "INFRAESTRUTURA",
+        "REFEITORIO"
+      ],
+      "temporal_status": "ATIVA",
+      "opportunity_score": 77,
+      "confidence_score": 65
+    },
+    {
+      "name": "lava_loucas",
+      "expected_relevance": "MEDIA",
+      "predicted_relevance": "MEDIA",
+      "expected_categories": [
+        "LAVAGEM"
+      ],
+      "predicted_categories": [
+        "LAVAGEM"
+      ],
+      "temporal_status": "ATIVA",
+      "opportunity_score": 64,
+      "confidence_score": 60
+    },
+    {
+      "name": "merenda_escolar",
+      "expected_relevance": "BAIXA",
+      "predicted_relevance": "BAIXA",
+      "expected_categories": [
+        "ALIMENTACAO_COLETIVA"
+      ],
+      "predicted_categories": [
+        "ALIMENTACAO_COLETIVA"
+      ],
+      "temporal_status": "ATIVA",
+      "opportunity_score": 50,
+      "confidence_score": 60
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "rules_version": "0.1.1",
+  "generated_at": "2026-09-12T13:18:38.020885+00:00",
+  "source_silver_files": [
+    "data/silver/pncp/pncp_silver_20260912T122355376645Z_cbd432aff5fa.jsonl"
+  ],
+  "input_record_count": 10,
+  "relevant_count": 0,
+  "irrelevant_count": 10,
+  "active_count": 10,
+  "future_count": 0,
+  "closed_count": 0,
+  "indeterminate_count": 0,
+  "high_relevance_count": 0,
+  "medium_relevance_count": 0,
+  "low_relevance_count": 0,
+  "average_opportunity_score": 0.0,
+  "average_confidence_score": 40.0,
+  "category_counts": {}
+}

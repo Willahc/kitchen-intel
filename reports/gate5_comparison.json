@@ -1,0 +1,63 @@
+{
+  "baseline": {
+    "status": "EVALUATED",
+    "total_records": 76,
+    "reviewed_records": 76,
+    "confusion_matrix": {
+      "true_positive": 9,
+      "false_positive": 15,
+      "true_negative": 50,
+      "false_negative": 2
+    },
+    "binary_metrics": {
+      "accuracy": 0.7763,
+      "precision": 0.375,
+      "recall": 0.8182,
+      "f1_score": 0.5143
+    },
+    "multiclass_relevance": {
+      "evaluated_count": 76,
+      "exact_matches": 56,
+      "relevance_accuracy": 0.7368
+    },
+    "multilabel_categories": {
+      "evaluated_count": 11,
+      "exact_match_accuracy": 0.7273,
+      "category_precision": 0.8889,
+      "category_recall": 0.6667,
+      "category_f1": 0.7619
+    }
+  },
+  "llm": {
+    "confusion_matrix": {
+      "true_positive": 11,
+      "false_positive": 12,
+      "true_negative": 53,
+      "false_negative": 0
+    },
+    "binary_metrics": {
+      "accuracy": 0.8421,
+      "precision": 0.4783,
+      "recall": 1.0,
+      "f1_score": 0.6471
+    },
+    "multiclass_relevance": {
+      "evaluated_count": 76,
+      "exact_matches": 54,
+      "relevance_accuracy": 0.7105
+    },
+    "multilabel_categories": {
+      "evaluated_count": 11,
+      "exact_match_accuracy": 0.8182,
+      "micro_precision": 0.9167,
+      "micro_recall": 0.9167,
+      "micro_f1": 0.9167
+    }
+  },
+  "delta": {
+    "precision_delta": 0.1033,
+    "recall_delta": 0.1818,
+    "f1_score_delta": 0.1328,
+    "accuracy_delta": 0.0658
+  }
+}

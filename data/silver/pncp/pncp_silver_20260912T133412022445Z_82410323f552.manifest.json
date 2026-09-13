@@ -1,0 +1,13 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-09-12T13:34:12.022445+00:00",
+  "source_files": [
+    "data/bronze/pncp/2026/09/12/pncp_20260912T121102507786Z_fbd079ebea8c_page_1.json",
+    "data/bronze/pncp/2026/09/12/pncp_20260912T133215040161Z_3293d08682d7_page_1.json"
+  ],
+  "raw_record_count": 20,
+  "record_count": 20,
+  "invalid_count": 0,
+  "duplicate_count": 0,
+  "rejected_file": null
+}
