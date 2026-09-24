@@ -14,3 +14,11 @@ coverage/
 .mypy_cache/
 .DS_Store
 Thumbs.db
+data/
+reports/*.csv
+reports/*.json
+reports/*.jsonl
+*.db
+*.sqlite*
+*.dump
+*.zip
